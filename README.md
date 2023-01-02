@@ -1,3 +1,12 @@
+## Presentacion
+El presente Proyecto corresponde al desarrollo de un catalogo para una tienda digital.
+1.-Las tecnologías utilizadas son las siguientes:
+    Next js
+    tailwind css 
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
