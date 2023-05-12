@@ -23,7 +23,7 @@ export default function Carousel({ images }) {
   };
 
   return (
-    <div className="block">
+    <div className="block mt-10">
       <button
         onClick={handlePrevSlide}
         className="  text-5xl  cursor-pointer text-gray-400 "
@@ -32,7 +32,7 @@ export default function Carousel({ images }) {
         <Swipe
           onSwipeLeft={handleNextSlide}
           onSwipeRight={handlePrevSlide}
-          className="relative z-10 w-full h-full"
+          className=" w-full h-full block"
         >
           {images.map((image, index) => {
             if (index === currentSlide) {
@@ -42,7 +42,7 @@ export default function Carousel({ images }) {
                   src={image}
                   layout="fill"
                   objectFit="contain"
-                  className="animate-fadeIn"
+                  className="block"
              
                 />
               );
@@ -55,7 +55,7 @@ export default function Carousel({ images }) {
         className="absolute right-0 m-auto text-5xl inset-y-1/2 cursor-pointer text-gray-400 z-20"
       />
 
-      <div className="relative flex justify-center p-2">
+      <div className=" flex justify-center p-2">
         {images.map((_, index) => {
           return (
             <div
